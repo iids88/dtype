@@ -4,7 +4,8 @@ This repository includes codes for "[A Worker-Task Specialization Model for Crow
 
 # Explanations
 In `data` folder, one can find csv data files.
-There are two files storing the ground truth labels for each task: `gt_athlete.csv` and `gt_netflix.csv`. Also, there are two files which have the answer labels for each task: `ans_athlete.csv` and `ans_netflix.csv`. Answers on each task were obtained from multiple workers in [Amazon Mechanical Turk](https://www.mturk.com/ "mTurk home").
+There are two files storing the ground truth labels for each task: `gt_athlete.csv` and `gt_netflix.csv`. Also, there are two files which have answer labels for each task: `ans_athlete.csv` and `ans_netflix.csv`. Answers on each task were obtained from multiple workers in [Amazon Mechanical Turk](https://www.mturk.com/ "mTurk home").
+
 ## Synthetic data
 Run `main_reliable.m` or `main_spammer.m` to get results using systhetic data which is generated in the d-type model.
 
@@ -12,4 +13,18 @@ Run `main_reliable.m` or `main_spammer.m` to get results using systhetic data wh
 Run `main_real.m` to get results using real data obtained from [Amazon Mechanical Turk](https://www.mturk.com/ "mTurk home"). 
 
 ---
+# References
+|Abbreviations for algorithms|Papers|
+|----------------------------|------|
+|EM|-------b-|
+|Variational|-------b-|
+|KOS|-------b-|
+|Ratio-Eigen|-------b-|
+|SpecEM|-------b-|
+||-------b-|
+|EM|-------b-|
+|EM|-------b-|
+|EM|-------b-|
+|EM|-------b-|
+|EM|-------b-|
 
