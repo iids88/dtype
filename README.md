@@ -12,4 +12,4 @@ Run `main_reliable.m` or `main_spammer.m` to get results using systhetic data wh
 Run `main_real.m` to get results using real data obtained from [Amazon Mechanical Turk](https://www.mturk.com/ "mTurk home"). 
 
 ---
-Matlab codes for various functions are in `func` folder, and codes related to previous works are in a subfolder `related_works`.
+
