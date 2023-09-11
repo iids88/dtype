@@ -56,6 +56,7 @@ for ii = 1:iter
         %% Proposed Algorithms (Stage 2)
         [tasks_ss,tasks_sdp_ss,tasks_alg3,tasks_alg2,type_sdp,type_ss,theta_hat(:,:,jj,ii),iIdx_sdp,minAnsNum] = ...
             d_clust_inference(label(:,:,jj),cWorkers_sdp_perm,cWorkers_ss_perm,d,tTypes);
+        checkIdx_sdp = find(iIdx_sdp==1);
         err_ss(jj,ii) = mean(truth(checkIdx_sdp,1) ~= tasks_ss(checkIdx_sdp,1));
         err_sdp_ss(jj,ii) = mean(truth(checkIdx_sdp,1) ~= tasks_sdp_ss(checkIdx_sdp,1));
         err_alg2(jj,ii) = mean(truth(checkIdx_sdp,1) ~= tasks_alg2(checkIdx_sdp,1));
