@@ -14,17 +14,15 @@ Run `main_real.m` to get results using real data obtained from [Amazon Mechanica
 
 ---
 # References
-|Abbreviations for algorithms|Papers|
-|----------------------------|------|
-|EM|-------b-|
-|Variational|-------b-|
-|KOS|-------b-|
-|Ratio-Eigen|-------b-|
-|SpecEM|-------b-|
-||-------b-|
-|EM|-------b-|
-|EM|-------b-|
-|EM|-------b-|
-|EM|-------b-|
-|EM|-------b-|
+In Fig. 4 of [the paper](https://arxiv.org/abs/2111.12550), we compared our algorithms to different algorithms below.
+
+|Papers|Authors|Abbreviations for algorithms|
+|------------------------------------------------------------------------------|-------|----------------------------|
+|[Maximum likelihood estimation of observer error-rates using the em algorithm](https://rss.onlinelibrary.wiley.com/doi/abs/10.2307/2346806)|A. P. Dawid, and A. M. Skene|EM|
+|Variational inference for crowdsourcing|Q. Liu, J. Peng, and A. T. Ihler|Variational|
+|Budget-optimal task allocation for reliable crowdsourcing systems|D. R. Karger, S. Oh, and D. Shah|KOS|
+|Aggregating crowdsourced binary rating|N. Dalvi, A. Dasgupta, R. Kumar, and V. Rasgoti|Ratio-Eigen|
+|Spectral methods meetem: A provably optimal algorithm for crowdsourcing|Y. Zhang, X. Chen, D. Zhou, and M. I. Jordan|SpecEM|
+|Aggregating ordinal labels from crowds by minimax conditional entropy|D. Zhou, Q. Liu, J. Platt, and C. Meek|Minimax|
+
 
